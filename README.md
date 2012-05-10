@@ -1,4 +1,4 @@
 tetris
 ======
 
-An HTML5 Tetris
+A HTML5 Tetris
