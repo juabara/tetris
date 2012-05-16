@@ -144,19 +144,26 @@ function TetrisEngine(config){
 				//esquerda
 				me.moveLeft();
 				break;
+			case 32:
+				//espaço
+				me.wipeDown();
+				break;
 			case 40:
 				//baixo
-				me.wipeDown();
+				me.moveRotate();
+				//me.wipeDown();
 				break;
 			case 38:
 				me.moveRotate();
 				break;
 			case 80:
+				//P
 				me.pause();
 				break;
 			default:
 				//espa√ßo
 				//alert(event.keyCode);
+				//me.moveRotate();
 				break;
 		}
 		
