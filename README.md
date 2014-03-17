@@ -5,4 +5,4 @@ A HTML5 Tetris
 
 Give it a try:
 
-http://tetris.ven.to/
+http://www.juabara.net/tetris/
